@@ -13,4 +13,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Add some sort of animations to the menu section
+- Have the hous be able to navigate stright to the reservations when clicked
+- Add an animation by next to the youtube videos in the reservations section
