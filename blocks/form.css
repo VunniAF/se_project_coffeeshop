@@ -21,6 +21,8 @@
   margin: 8px 0 32px;
   border-radius: 4px;
   font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 .form__input::-webkit-input-placeholder {
@@ -40,12 +42,14 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  color: #fff;
   opacity: 100%;
 }
 
 .form__button:hover {
   background-color: #3f96f3;
   opacity: 70%;
+  /* according to the berief I was assgined this is correct, and chaging the opacity was for the form__button. Please refer to this copy of the breif I was given, page 13 #2: https://practicum-content.s3.us-west-1.amazonaws.com/web-developer/project-2/project-2-stage-4-brief-before-redesign-07-2024.pdf */
 }
 
 .form__checkbox {
@@ -54,10 +58,6 @@
   height: 20px;
   background-color: #1878dc;
   background-image: url(../images/check.svg);
-  font-family: Inter, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .form__label_type_checkbox {
