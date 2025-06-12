@@ -39,13 +39,11 @@
   font-family: Inter, Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  transition: background-color 1s linear 2s;
-  /* made the correction, but not sure if it's still needed without need to chage opacity(?) */
+  transition: color 1s linear 2s;
 }
 
 .footer__social-link:hover {
   color: #c1c1c1;
-  /* according to the berief I was assgined this is correct, and chaging the opacity was for the form__button. Please refer to this copy of the breif I was given, page 13 #3: https://practicum-content.s3.us-west-1.amazonaws.com/web-developer/project-2/project-2-stage-4-brief-before-redesign-07-2024.pdf */
 }
 
 .footer__social-icon {
